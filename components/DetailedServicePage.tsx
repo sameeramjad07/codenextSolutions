@@ -49,7 +49,7 @@ export default function DetailedServicePage({ service }: DetailedServicePageProp
   }
 
   return (
-    <main className="relative bg-black-100 min-h-screen flex justify-center items-center flex-col overflow-hidden">
+    <main className="relative bg-black-100 min-h-screen flex justify-center items-center flex-col overflow-hidden sm:px-10 px-5">
       {/* <BackgroundBeamsWithCollision /> */}
       <div className="max-w-7xl w-full z-10">
         <FloatingNav navItems={navItems} />
